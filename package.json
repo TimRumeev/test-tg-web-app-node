@@ -2,10 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc --outDir ./dist && node dist/main"
+    "start": "tsc --outDir ./dist && node dist/main",
+    "start1": "nodemon main.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "devDependencies": {
     "@types/node-telegram-bot-api": "^0.64.6",
     "@types/typescript": "^2.0.0",
+    "nodemon": "^3.1.3",
     "prettier": "^3.3.2",
     "typescript": "^5.4.5"
   },
